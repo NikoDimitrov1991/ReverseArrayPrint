@@ -8,7 +8,7 @@ public class ReverseArrayPrint {
 
         System.out.print("Enter the number of elements you want to store: ");
         n = sc.nextInt();
-        int[] array = new int[32767];
+        int[] array = new int[n];
         System.out.println("Enter the elements of the array: ");
         for (int i = 0; i < n; i++) {
             array[i] = sc.nextInt();
